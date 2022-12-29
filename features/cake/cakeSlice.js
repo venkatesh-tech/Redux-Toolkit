@@ -1,9 +1,9 @@
 const createSlice = require("@reduxjs/toolkit").createSlice;
-
+//Action
 const initialState = {
   numOfCakes: 10,
 };
-
+//Reducer
 const cakeSlice = createSlice({
   name: "cake",
   //   initialState:initialState
